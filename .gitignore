@@ -1,0 +1,13 @@
+# Ignore build artifacts
+**/target/
+**/Cargo.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+*.swp
+*.swo
+
