@@ -5,7 +5,7 @@
 
    Rust uses third approach : "Memory is managed through system of ownership with a set of rules that compiler 
                                checks,if any rule is violated, program won't compile" 
-
+---  
 ## Stack And Heap 
 
 - Stack & Heap both are part of memory available to code to use at runtime. But structuring of data is 
@@ -30,3 +30,14 @@
   minimizing the amount of duplicate data on heap and cleaning up unused data on the heap, 
   so we don't run out of space are problem that ownership address.** 
 
+---
+
+## Ownership Rules 
+
+1) Each value in Rust has owner. 
+2) There can be only one owner at a time.  
+3) When owner get's out of scope, the value will be dropped.
+
+
+### Variable Scope 
+- 
