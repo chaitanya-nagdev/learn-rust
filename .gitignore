@@ -11,3 +11,7 @@ Thumbs.db
 *.swp
 *.swo
 
+#projects
+simple-projects/
+notes/
+notes.html
